@@ -142,4 +142,4 @@ const RestaurantsNearby = () => {
     )
 }
 export default RestaurantsNearby;
-//Api Key:AIzaSyAkzD8dg5FdfKM52FLZwXXhLK8Rzw5yv8Q
+
