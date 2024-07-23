@@ -1,0 +1,21 @@
+footer {
+  /* bottom: 0; */
+  width: 100%;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+footer p {
+  color: black;
+  margin: 0px;
+}
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}

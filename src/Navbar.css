@@ -1,0 +1,57 @@
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.open-sans-less-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.navbarTitle {
+  font-size: 25px;
+  color: #7e22ce;
+}
+.navbarStyle {
+  background: white;
+}
+
+.navigator a:hover {
+  text-decoration: none;
+  border: 2px solid #7e22ce;
+  border-top: none;
+  border-left:none;
+  border-right: none;
+}
+.login-signup-holder button:hover{
+  background-color: #5f14a0;
+}
+.buttonStyle{
+  border: none;
+  outline:none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background-color: #7e22ce;
+  color:white;
+
+}
+.buttonStyle:hover{
+ background-color: #5f14a0;
+}
+/* style={{ backgroundColor: "#7e22ce", color: "white", paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "0.75rem", paddingRight: "0.75rem", borderRadius: "0.5rem", textDecoration: "none", outline: "none", border: "none" }}  */

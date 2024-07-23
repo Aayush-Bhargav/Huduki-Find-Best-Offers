@@ -1,0 +1,81 @@
+
+
+offer:
+ <div>
+      <div className=' image-loop'>
+        <h4 className='open-sans-semibold'>Trending Offers</h4>
+        <div className='logos-slide'>
+          {
+            restaurants.length > 0 && (restaurants.map((restaurant) => {
+              return (
+                <>
+                  {
+                    images.length === 1 ? (
+                      <>
+                        <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                        <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                        <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                      </>) :
+                      images.length === 2 ? (
+                        <>
+                          {console.log('hi')}
+                          <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                          {restaurants[0].image2 ?
+                            (<>
+                              <img src={`/images/${restaurants[0].image2}`} alt="Offer 2 Here" key={`/images/${restaurants[0].image2}${new Date().getTime()}`} />
+                              <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                              <img src={`/images/${restaurants[0].image2}`} alt="Offer 2 Here" key={`/images/${restaurants[0].image2}${new Date().getTime()}`} />
+                            </>) :
+                            (<>
+                              <img src={`/images/${restaurants[1].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[1].image1}${new Date().getTime()}`} />
+                              <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                            </>)}
+                        </>) : (
+                        <>
+                          <img src={`/images/${restaurant.image1}`} alt="Offer 1 Here" key={`/images/${restaurant.image1}${new Date().getTime()}`} />
+                          {restaurant.image2 && <img src={`/images/${restaurant.image2}`} alt="Offer 2 Here" key={`/images/${restaurant.image2}${new Date().getTime()}`} />}
+                        </>)
+                  }
+                </>
+              );
+            }))}
+
+        </div>
+        <div className='logos-slide'>
+          {
+            restaurants.length > 0 && (restaurants.map((restaurant) => {
+              return (
+                <>
+                  {
+                    images.length === 1 ? (
+                      <>
+                        <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                        <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                        <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                      </>) :
+                      images.length === 2 ? (
+                        <>
+                          <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                          {restaurants[0].image2 ?
+                            (<>
+                              <img src={`/images/${restaurants[0].image2}`} alt="Offer 2 Here" key={`/images/${restaurants[0].image2}${new Date().getTime()}`} />
+                              <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                              <img src={`/images/${restaurants[0].image2}`} alt="Offer 2 Here" key={`/images/${restaurants[0].image2}${new Date().getTime()}`} />
+                            </>) :
+                            (<>
+                              <img src={`/images/${restaurants[1].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[1].image1}${new Date().getTime()}`} />
+                              <img src={`/images/${restaurants[0].image1}`} alt="Offer 1 Here" key={`/images/${restaurants[0].image1}${new Date().getTime()}`} />
+                            </>)}
+                        </>) : (
+                        <>
+                          <img src={`/images/${restaurant.image1}`} alt="Offer 1 Here" key={`/images/${restaurant.image1}${new Date().getTime()}`} />
+                          {restaurant.image2 && <img src={`/images/${restaurant.image2}`} alt="Offer 2 Here" key={`/images/${restaurant.image2}${new Date().getTime()}`} />}
+                        </>)
+                  }
+                </>
+              );
+            }))}
+
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,71 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.image-loop {
+  min-height: 30vh;
+  background-color: #7e22ce;
+  /* padding-top: 12px; */
+}
+.image-loop h4 {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+.image-loop {
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* .image-loop:hover .logos-slide{
+    animation-play-state: paused;
+} */
+.logos-slide {
+  display: inline-block;
+  animation: slide 20s infinite linear;
+  margin-bottom: 30px;
+}
+.logos-slide img {
+  height: 150px;
+  margin: 40px 40px 60px 40px;
+}
+.open-sans-semibold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.center-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.center-display img {
+  height: 150px;
+  margin-right: 40px;
+  margin-left: 40px;
+ 
+}
+
+.clientContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:900px) {
+  .center-display img{
+    margin: 0px;
+    margin-bottom: 40px;
+    width: 60%;
+  }
+}
