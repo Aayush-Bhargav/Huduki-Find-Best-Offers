@@ -470,7 +470,7 @@ const Signup = () => {
                   {/* <label htmlFor='location' className='form-label'>
               <PlaceIcon /><b style={{ marginLeft: "2px" }}>Location</b>
             </label> */}
-                  {/* <LoadScript googleMapsApiKey='AIzaSyAkzD8dg5FdfKM52FLZwXXhLK8Rzw5yv8Q' libraries={['places']} > */}
+                 
                   <Autocomplete
                     onLoad={(autocomplete) => {
                       autocompleteRef.current = autocomplete;
