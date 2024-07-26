@@ -20,6 +20,7 @@ Huduki is a comprehensive MERN web application that connects users with special 
 
 ### Signup Page
 ![Signup Page](screenshots/signupPage.png)
+![Signup Page 1](screenshots/signupPage1.png)
 
 
 ### Forgot Password Page
@@ -36,7 +37,8 @@ Huduki is a comprehensive MERN web application that connects users with special 
 ![About Page](screenshots/aboutPage.png)
 ![About Page 1](screenshots/aboutPage1.png)
 
-
+### Payment Portal
+![Payment Portal](screenshot/paymentPage.png)
 
 ## Features
 
