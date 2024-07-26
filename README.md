@@ -19,9 +19,14 @@ Open a new terminal and Install backend dependencies
 cd backend
 npm install
 ```
-Create a **.env** file in the root directory of the project and add your google maps API key and Razorpay key id. You can use the provided **sample.txt** file as a template:
+Create a **.env** file in the root directory of the project and add your google maps API key and Razorpay key id. You can use the provided **SampleENV.txt** file as a template:
 ```
-cp sample.txt .env
+cp SampleENV.txt .env
+```
+Create a **.env** file in the **backend** directory of the project and the required sensitive information. You can use the provided **sampleENV.txt** file as a template:
+```
+cd backend
+cp sampleENV.txt .env
 ```
 
 ## Screenshots
