@@ -38,47 +38,48 @@ Launch the frontend
 ```
 npm start
 ```
+**Make sure mongo DB server is running on your localhost and listening on the default port 27017.**
 
 ## Screenshots
 
-#### Home Page 
+### Home Page 
 ![Home Page ](screenshots/homePage.png)
 ![Home Page 1](screenshots/homePage1.png)
 
-#### Search Nearby Restaurants
+### Search Nearby Restaurants
 ![Nearby Restaurants](screenshots/findNearbyRestaurants.png)
 
-#### Restaurant Info
+### Restaurant Info
 ![Restaurant Info](screenshots/restaurantDetail.png)
 ![Restaurant Info](screenshots/restaurantDetail1.png)
 
-#### Login Page
+### Login Page
 ![Login Page](screenshots/loginPage.png)
 
 
-#### Signup Page
+### Signup Page
 ![Signup Page](screenshots/signupPage.png)
 ![Signup Page 1](screenshots/signupPage1.png)
 
 
-#### Forgot Password Page
+### Forgot Password Page
 ![Forgot Password Page](screenshots/forgotPasswordPage.png)
 
-#### Edit Details Page
+### Edit Details Page
 ![Edit Details Page](screenshots/editDetails.png)
 ![Edit Details Page 1](screenshots/editDetails1.png)
 
-#### Verify Coupon Page
+### Verify Coupon Page
 ![Verify Coupon Page](screenshots/verifyCoupon.png)
 
-#### About Page
+### About Page
 ![About Page](screenshots/aboutPage.png)
 ![About Page 1](screenshots/aboutPage1.png)
 
-#### Payment Portal
+### Payment Portal
 ![Payment Portal](screenshots/paymentPage.png)
 
-#### Mobile View
+### Mobile View
 ![Mobile View](screenshots/mobileView.png)
 ![Mobile View 1](screenshots/mobileView1.png)
 ![Mobile View 2](screenshots/mobileView2.png)
