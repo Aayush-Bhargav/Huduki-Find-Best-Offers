@@ -1,6 +1,27 @@
 # Huduki- Find the Best Offers On Restaurants, Bars and Pubs online!
 Huduki is a comprehensive MERN web application that connects users with special offers from various dining and drinking establishments. It provides a seamless experience for both users and restaurant owners, featuring real-time offer displays, dynamic search capabilities, and coupon generation. Built with the MERN stack (MongoDB, Express.js, React, Node.js), Huduki ensures a secure and interactive experience. This is a website that I solely built as part of an unpaid internship this summer.
 
+## Install
+Clone the repo using:
+```
+git clone https://github.com/Aayush-Bhargav/Huduki-Find-Best-Offers.git
+```
+Go to the required directory:
+```
+cd Huduki-Find-Best-Offers
+```
+Install frontend dependencies
+```
+npm install
+```
+Open a new terminal
+Install backend dependencies
+```
+cd backend
+npm install
+```
+
+
 ## Screenshots
 
 ### Home Page 
