@@ -69,6 +69,10 @@ npm start
 ![Edit Details Page](screenshots/editDetails.png)
 ![Edit Details Page 1](screenshots/editDetails1.png)
 
+### Renew Membership Page
+![Renew Membership](screenshots/renewMembershipPage.png)
+![Renew Membership](screenshots/renewMembershipPage1.png)
+
 ### Verify Coupon Page
 ![Verify Coupon Page](screenshots/verifyCoupon.png)
 
