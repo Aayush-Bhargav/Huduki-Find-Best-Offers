@@ -29,12 +29,14 @@ Huduki is a comprehensive MERN web application that connects users with special 
 
 ### Edit Details Page
 ![Edit Details Page](screenshots/editDetails.png)
+![Edit Details Page 1](screenshots/editDetails1.png)
 
 ### Verify Coupon Page
 ![Verify Coupon Page](screenshots/verifyCoupon.png)
 
 ### About Page
 ![About Page](screenshots/aboutPage.png)
+![About Page 1](screenshots/aboutPage1.png)
 
 
 
