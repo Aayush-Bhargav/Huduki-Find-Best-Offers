@@ -88,6 +88,11 @@ npm start
 ![Mobile View 1](screenshots/mobileView1.png)
 ![Mobile View 2](screenshots/mobileView2.png)
 
+### Mails Screenshots
+![Coupon Generated](screenshots/couponMailedToCustomer.png)
+![Coupon Redeemed](screenshots/couponRedeemedByCustomer.png)
+![Registration Password Mail](screenshots/registrationPasswordMail.png)
+![Pdf with registration details mailed](screenshots/pdfWithRegistrationDetailsMail.png)
 
 ## Features
 
