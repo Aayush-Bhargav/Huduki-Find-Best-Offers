@@ -25,7 +25,6 @@ cp SampleENV.txt .env
 ```
 Create a **.env** file in the **backend** directory of the project and the required sensitive information. You can use the provided **sampleENV.txt** file as a template:
 ```
-cd backend
 cp sampleENV.txt .env
 ```
 
