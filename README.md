@@ -38,7 +38,7 @@ Huduki is a comprehensive MERN web application that connects users with special 
 ![About Page 1](screenshots/aboutPage1.png)
 
 ### Payment Portal
-![Payment Portal](screenshot/paymentPage.png)
+![Payment Portal](screenshots/paymentPage.png)
 
 ## Features
 
