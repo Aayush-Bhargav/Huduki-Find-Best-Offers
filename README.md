@@ -99,19 +99,20 @@ npm start
 - **Trending Offers**: View a carousel of trending offers from various bars, pubs, and restaurants.
 - **Location-Based Search**: Enter a location and specify a radius to find restaurants with offers in the vicinity.
 - **Restaurant Details**: Click on a restaurant to view detailed information, including an embedded Google Maps view.
-- **Coupon Generation**: Generate coupons for additional discounts. Track usage to monitor the business generated through the app.
-- **Secure Authentication**: User and restaurant authentication with secure login and registration processes.
+- **Coupon Generation**: Generate coupons for additional discounts. Track usage to monitor the business generated through the app. Securely verify the validity of the coupons after logging in.
+- **Secure Authentication**: User and restaurant authentication with secure login registration and membership renewal processes.
 - **Payment Integration**: Seamless payment for restaurant registration through Razorpay.
 - **Email Notifications**: Automated email notifications using Nodemailer for password recovery and registration details.
 
 ## Technologies Used
 
 - **MERN Stack**: Utilizes MongoDB, Express.js, React, and Node.js to provide a full-stack solution.
-- **Node.js & Express**: Backend services including authentication and restaurant management.
+- **Node.js & Express**: Backend services including authentication, restaurant management and finding restaurants within a certain radius.
 - **MongoDB**: Stores user data, restaurant information, payments, and coupons.
 - **React**: Frontend framework for a responsive and dynamic user interface.
 - **Google Maps API**: Embedded maps for displaying restaurant locations.
 - **Nodemailer**: Handles email notifications for user and restaurant communication.
 - **Razorpay**: Integrated payment gateway for handling restaurant registration fees.
 - **Multer**: Used for handling file uploads to the backend.
+- **PDF Generation**: Backend functionality for generating PDFs for registration and membership renewal invoices.
 
