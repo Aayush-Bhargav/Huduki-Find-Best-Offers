@@ -40,6 +40,12 @@ Huduki is a comprehensive MERN web application that connects users with special 
 ### Payment Portal
 ![Payment Portal](screenshots/paymentPage.png)
 
+### Mobile View
+![Mobile View](screenshots/mobileView.png)
+![Mobile View 1](screenshots/mobileView1.png)
+![Mobile View 2](screenshots/mobileView2.png)
+
+
 ## Features
 
 - **Trending Offers**: View a carousel of trending offers from various bars, pubs, and restaurants.
