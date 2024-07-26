@@ -14,8 +14,7 @@ Install frontend dependencies
 ```
 npm install
 ```
-Open a new terminal
-Install backend dependencies
+Open a new terminal and Install backend dependencies
 ```
 cd backend
 npm install
