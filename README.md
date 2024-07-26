@@ -2,8 +2,6 @@
 Huduki is a comprehensive MERN web application that connects users with special offers from various dining and drinking establishments. It provides a seamless experience for both users and restaurant owners, featuring real-time offer displays, dynamic search capabilities, and coupon generation. Built with the MERN stack (MongoDB, Express.js, React, Node.js), Huduki ensures a secure and interactive experience. This is a website that I solely built as part of an unpaid internship this summer.
 
 ## Screenshots
-### Home Page
-![Home Page](screenshots/homePage.png)
 
 ### Home Page 1
 ![Home Page 1](screenshots/homePage1.png)
