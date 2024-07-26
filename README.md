@@ -30,7 +30,7 @@ cp sampleENV.txt .env
 
 ## Launch
 
-Launch the server (backend)
+Launch the server 
 ```
 nodemon index.js
 ```
