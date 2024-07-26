@@ -5,8 +5,6 @@ Huduki is a comprehensive MERN web application that connects users with special 
 
 ### Home Page 
 ![Home Page ](screenshots/homePage.png)
-
-### Home Page 1
 ![Home Page 1](screenshots/homePage1.png)
 
 ### Search Nearby Restaurants
